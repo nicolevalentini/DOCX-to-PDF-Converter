@@ -19,4 +19,4 @@ for filename in os.listdir(input_folder):
         convert(docx_path, pdf_path)
         print(f'Converted: {filename} to {os.path.basename(pdf_path)}')
 
-print("Conversion completed.")
+print("Conversion completed.") 
